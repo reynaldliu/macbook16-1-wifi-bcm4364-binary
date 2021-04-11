@@ -25,22 +25,23 @@ https://wiki.t2linux.org/distributions/ubuntu/building/
 
 Show,Record File Path
 ```
-"RequestedFiles" = ({
-    "Firmware"="C-4364s-B2/kauai.trx",
-    "TxCap"="C-4364s-B2/kauai-X3.txcb",
-    "Regulatory"="C-4364s-B2/kauai-X3.clmb",
-    "NVRAM"="C-4364s-B2/P-kauai-X3_M-HRPN_V-u__m-7.5.txt"
-})
+"RequestedFiles" = 
+({
+"Firmware"="C-4364__s-B3/bali.trx",
+"TxCap"="C-4364__s-B3/bali-X2.txcb",
+"Regulatory"="C-4364__s-B3/bali-X2.clmb",
+"NVRAM"="C-4364__s-B3/P-bali-X2_M-HRPN_V-m__m-7.9.txt"
+})}
 ```
-
+`!!!every computer is different, you have to enter macOS to run the command yourself to see the echo!!!`
 
 Put the firmware to Ubuntu system 
 
-The `C-4364s-B2/kauai.trx` File Rename And Copy to  Ubuntu Path `/lib/firmware/brcm/brcmfmac4364-pcie.bin`
+The `C-4364__s-B3/bali.trx` File Rename And Copy to  Ubuntu Path `/lib/firmware/brcm/brcmfmac4364-pcie.bin`
 
-The `C-4364s-B2/kauai-X3.clmb`   File Rename And Copy to  Ubuntu Path `/lib/firmware/brcm/brcmfmac4364-pcie.clm_blob`
+The `C-4364__s-B3/bali-X2.clmb`   File Rename And Copy to  Ubuntu Path `/lib/firmware/brcm/brcmfmac4364-pcie.clm_blob`
 
-The `C-4364s-B2/P-kauai-X3_M-HRPN_V-u__m-7.5.txt ` File Rename And Copy to  Ubuntu Path `/lib/firmware/brcm/brcmfmac4364-pcie.Apple Inc.-MacBookPro16,1.txt`
+The `C-4364__s-B3/P-bali-X2_M-HRPN_V-m__m-7.9.txt` File Rename And Copy to  Ubuntu Path `/lib/firmware/brcm/brcmfmac4364-pcie.Apple Inc.-MacBookPro16,1.txt`
 
 6.Reboot Computer
 
