@@ -1,5 +1,5 @@
 # MacBookPro 16,1 BCM4364 Wifi 
-
+MBP,mbp,mbp16,mbp2019,mbp2019,linux,ubuntu,wifi,drivers,bcm4364,broadcom4364
 MacBookPro 16,1 2019 16Inch broadcom bcm4364 wifi works  Linux Kernel Binary
 
 # ubuntu 20.04 install ISO  :
