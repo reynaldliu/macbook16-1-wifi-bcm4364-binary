@@ -19,9 +19,32 @@ https://wiki.t2linux.org/distributions/ubuntu/building/
 
 4.Run command `update-grub`
 
-5.Reboot Computer
+5.Find Your MBP firmware On `macOS` And Add to `Ubuntu`
 
-6.OK
+`ioreg -l | grep RequestedFiles`
+
+Show,Record File Path
+```
+"RequestedFiles" = ({
+    "Firmware"="C-4364s-B2/kauai.trx",
+    "TxCap"="C-4364s-B2/kauai-X3.txcb",
+    "Regulatory"="C-4364s-B2/kauai-X3.clmb",
+    "NVRAM"="C-4364s-B2/P-kauai-X3_M-HRPN_V-u__m-7.5.txt"
+})
+```
+
+
+Put the firmware to Ubuntu system 
+
+The `C-4364s-B2/kauai.trx` File Rename And Copy to  Ubuntu Path `/lib/firmware/brcm/brcmfmac4364-pcie.bin`
+
+The `C-4364s-B2/kauai-X3.clmb`   File Rename And Copy to  Ubuntu Path `/lib/firmware/brcm/brcmfmac4364-pcie.clm_blob`
+
+The `C-4364s-B2/P-kauai-X3_M-HRPN_V-u__m-7.5.txt ` File Rename And Copy to  Ubuntu Path `/lib/firmware/brcm/brcmfmac4364-pcie.Apple Inc.-MacBookPro16,1.txt`
+
+6.Reboot Computer
+
+7.OK
 
 # FAQ:
 1./lib/modules/5.10.28 too large 1.3Gb ,i can not upload it to github
