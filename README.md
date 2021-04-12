@@ -17,6 +17,8 @@ https://wiki.t2linux.org/distributions/ubuntu/building/
 
 3.Replace or add   `initrd.img-5.10.28` to /boot/initrd.img-5.10.28
 
+decompression  `lib_modules_5.10.28.tar.gz` to /lib/modules/5.10.28
+
 4.Run command `update-grub`
 
 5.Find Your MBP firmware On `macOS` And Add to `Ubuntu`
