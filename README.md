@@ -50,6 +50,6 @@ The `C-4364__s-B3/P-bali-X2_M-HRPN_V-m__m-7.9.txt` File Rename And Copy to  Ubun
 7.OK
 
 # FAQ:
-1./lib/modules/5.10.28 too large 1.3Gb ,i can not upload it to github
 
-2.linux build include header `/usr/src/5.10.28`  or `/lib/moules/5.10.28/build` too large 8.5Gb,i can not upload it to github
+
+linux build include header `/usr/src/5.10.28`  or `/lib/moules/5.10.28/build` too large 8.5Gb,i can not upload it to github
