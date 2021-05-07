@@ -9,6 +9,9 @@ https://github.com/marcosfad/mbp-ubuntu/releases/download/v20.04-5.8.13-1/livecd
 
 https://wiki.t2linux.org/distributions/ubuntu/building/
 
+# kernel and patch source base:
+https://github.com/jamlam/mbp-16.1-linux-wifi
+
 # How to Use
 
 1.Download https://github.com/reynaldliu/macbook16-1-wifi-bcm4364-binary/releases/tag/v5.10.28-wifi
